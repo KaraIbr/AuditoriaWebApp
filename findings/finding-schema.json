@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WebAudit Finding",
+  "description": "Estructura de un hallazgo de auditoría WebAudit",
+  "type": "object",
+  "required": ["id", "title", "severity", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^WA-\\d{4}-\\d{4}$",
+      "description": "ID único del hallazgo: WA-{AÑO}-{NÚMERO}"
+    },
+    "title": {
+      "type": "string",
+      "description": "Título descriptivo del hallazgo"
+    },
+    "severity": {
+      "type": "string",
+      "enum": ["Critical", "High", "Medium", "Low", "Info"]
+    },
+    "owasp_top10": {
+      "type": "string",
+      "description": "OWASP Top 10 2021 reference (e.g. A01)"
+    },
+    "owasp_wstg": {
+      "type": "string",
+      "description": "OWASP WSTG ID (e.g. WSTG-INPV-01)"
+    },
+    "asvs": {
+      "type": "string",
+      "description": "ASVS requirement ID (e.g. 5.1.1)"
+    },
+    "impact": {
+      "type": "string",
+      "description": "Descripción del impacto potencial"
+    },
+    "likelihood": {
+      "type": "string",
+      "enum": ["Alta", "Media", "Baja"]
+    },
+    "condition": {
+      "type": "string",
+      "description": "Condición necesaria para explotar la vulnerabilidad"
+    },
+    "evidence": {
+      "type": "string",
+      "description": "Evidencia: request, screenshot, log"
+    },
+    "reproduction": {
+      "type": "string",
+      "description": "Pasos para reproducir el hallazgo"
+    },
+    "recommendation": {
+      "type": "string",
+      "description": "Recomendación de remediación"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["Open", "Confirmed", "Fixed", "Accepted", "False Positive"]
+    },
+    "auditor": {
+      "type": "string",
+      "description": "Nombre del auditor que reportó"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Fecha del hallazgo"
+    }
+  }
+}

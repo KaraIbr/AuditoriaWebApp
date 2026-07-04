@@ -1,0 +1,76 @@
+{
+  "categorias": [
+    {
+      "id": "auth",
+      "nombre": "Autenticación",
+      "owasp_ref": "A07",
+      "checklist": "01-auth.md"
+    },
+    {
+      "id": "session",
+      "nombre": "Manejo de Sesiones",
+      "owasp_ref": "A02, A08",
+      "checklist": "02-session.md"
+    },
+    {
+      "id": "input",
+      "nombre": "Validación de Entrada",
+      "owasp_ref": "A03",
+      "checklist": "03-input.md"
+    },
+    {
+      "id": "authorization",
+      "nombre": "Autorización",
+      "owasp_ref": "A01",
+      "checklist": "04-authorization.md"
+    },
+    {
+      "id": "api",
+      "nombre": "APIs",
+      "owasp_ref": "A01, A05, A06",
+      "checklist": "05-api.md"
+    },
+    {
+      "id": "crypto",
+      "nombre": "Criptografía",
+      "owasp_ref": "A02",
+      "checklist": "06-crypto.md"
+    },
+    {
+      "id": "infra",
+      "nombre": "Infraestructura",
+      "owasp_ref": "A05",
+      "checklist": "07-infra.md"
+    },
+    {
+      "id": "data",
+      "nombre": "Protección de Datos",
+      "owasp_ref": "A04, A09",
+      "checklist": "08-data.md"
+    },
+    {
+      "id": "deps",
+      "nombre": "Dependencias",
+      "owasp_ref": "A06",
+      "checklist": "09-deps.md"
+    },
+    {
+      "id": "ci-cd",
+      "nombre": "CI/CD",
+      "owasp_ref": "A08",
+      "checklist": "10-ci-cd.md"
+    },
+    {
+      "id": "ecommerce",
+      "nombre": "E-commerce",
+      "owasp_ref": "A01, A03, A04",
+      "checklist": "11-ecommerce.md"
+    },
+    {
+      "id": "business-logic",
+      "nombre": "Lógica de Negocio",
+      "owasp_ref": "A04",
+      "checklist": "12-business-logic.md"
+    }
+  ]
+}
