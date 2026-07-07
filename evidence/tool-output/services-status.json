@@ -1,0 +1,21 @@
+{
+  "services": {
+    "IAM": {
+      "url": "http://localhost:8100",
+      "status": "running",
+      "docs": "http://localhost:8100/docs",
+      "openapi": "http://localhost:8100/openapi.json"
+    },
+    "CRM": {
+      "url": "http://localhost:8000",
+      "status": "running",
+      "docs": "http://localhost:8000/docs",
+      "openapi": "http://localhost:8000/openapi.json"
+    }
+  },
+  "date": "2026-07-07",
+  "credentials": {
+    "email": "admin@verp.com",
+    "password": "admin"
+  }
+}

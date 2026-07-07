@@ -1,0 +1,24 @@
+{
+  "tool": "Semgrep",
+  "rules": "p/owasp-top-ten, p/python, p/typescript, p/react",
+  "targets": {
+    "IAM": {
+      "path": "IAM/src/",
+      "files_scanned": 36,
+      "findings": 0
+    },
+    "CRM": {
+      "path": "CRM/src/",
+      "files_scanned": 107,
+      "findings": 0
+    },
+    "Frontend": {
+      "path": "frontend/src/",
+      "files_scanned": 242,
+      "findings": 0
+    }
+  },
+  "total_findings": 0,
+  "date": "2026-07-07",
+  "note": "No se encontraron hallazgos con reglas OWASP Top Ten gratuitas. Las reglas gratuitas tienen cobertura limitada; se recomienda semgrep login para reglas adicionales."
+}

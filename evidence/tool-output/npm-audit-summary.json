@@ -1,0 +1,10 @@
+{
+  "tool": "npm audit",
+  "target": "frontend/",
+  "result": "0 vulnerabilities found",
+  "dependencies": {
+    "direct": 12,
+    "dev": 16
+  },
+  "date": "2026-07-07"
+}
