@@ -1,0 +1,31 @@
+{
+  "app_type": "webapp",
+  "description": "ERP with React SPA frontend, FastAPI IAM identity service, FastAPI CRM backend with AI agent, JWT auth, bcrypt passwords, RBAC permissions, CRM business logic pipeline with leads and proposals, AI agent with LangGraph, SQLite/PostgreSQL database, OAuth2 login",
+  "checklists": [
+    "01-auth",
+    "02-session",
+    "03-input",
+    "04-authorization",
+    "05-api",
+    "06-crypto",
+    "07-infra",
+    "08-data",
+    "09-deps",
+    "10-ci-cd",
+    "12-business-logic"
+  ],
+  "checklist_ids": [
+    "auth",
+    "session",
+    "input",
+    "authorization",
+    "api",
+    "crypto",
+    "infra",
+    "data",
+    "deps",
+    "ci-cd",
+    "business-logic"
+  ],
+  "estimated_days": 10
+}
